@@ -32,7 +32,9 @@ def main():
                 if len(result) > 0:
                     break;
             results.append(result[0])
-    print(list(set(results)-set(myresults)))
+    print(results)
+    print(myresults)
+    print(results == myresults)
 
 if __name__ == '__main__':
     main()
